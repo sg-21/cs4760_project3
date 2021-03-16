@@ -26,7 +26,7 @@ Invoking the solution:
 coordinator should take in several command line options as follows:
 
 coordinator -h 
-master [-h] [-c i] [-m j] datafile
+coordinator [-h] [-c i] [-m j] datafile
 
 -h          Describe how the project should be run and then, terminate.
 -c i        Indicate how many child processesishould be launched in total.
@@ -40,7 +40,7 @@ How to run the project:
 
 First, you will need to type "make" into the command prompt.
 This will create the necessary .o files as well as the executable files.
-Then, you type ./master followed by any of the above options. *if no datafile is given, an error message will be prompted*
+Then, you type ./coordinator followed by any of the above options. *if no datafile is given, an error message will be prompted*
 Now, the program will run as expected.
 To clean the project, type "make clean".
 
