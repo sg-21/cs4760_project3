@@ -8,12 +8,16 @@
 
 Brief Description: 
 
-You will be required to create a separate child process from your main process.  That is, the main process will just spawn the child processes and wait 
-for messages from them.  The main process also sets a timer at the start of computation to 25 seconds.  If computation has not finished by this time, 
-the main process kills all the spawned processes and then exits. Make sure that you print appropriate message(s). In addition,  the main process should 
-print a message when an interrupt signal (^C) is received.  All the children should be killed as a result.  All other signals you can ignore (do not handle).  
-As a precaution, add this feature only after your program is well debugged. The code for the child processes should be compiled separately and the executables 
-be called Coordinator and palin.
+You will be required to create a separate child process from your main process.  
+That is, the main process will just spawn the child processes and wait for messages from them.  
+The main process also sets a timer at the start of computation to 25 seconds.  
+If computation has not finished by this time, the main process kills all the spawned processes and then exits. 
+Make sure that you print appropriate message(s). 
+In addition,  the main process should print a message when an interrupt signal (^C) is received.  
+All the children should be killed as a result.  
+All other signals you can ignore (do not handle).  
+As a precaution, add this feature only after your program is well debugged. 
+The code for the child processes should be compiled separately and the executables be called Coordinator and palin.
 
 --------------------------------------------------------------------------------------------------------
 
