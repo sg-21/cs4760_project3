@@ -29,7 +29,7 @@ coordinator -h
 coordinator [-h] [-c i] [-m j] datafile
 
 -h          Describe how the project should be run and then, terminate.
--c i        Indicate how many child processesishould be launched in total.
+-c i        Indicate how many child processes should be launched in total.
 -m j        Indicate the maximum number of children j allowed to exist in the system at the same time.  (Default 20)
 datafile    Input file containing the palindromes, one per line.
 
